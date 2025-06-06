@@ -14,7 +14,7 @@ setFormData(prev => ({ ...prev, [name]: value }));
 const handleSubmit = e => {
 e.preventDefault();
 setSent(true);
-setTimeout(() =>setSent(false), 3000); // Reset after 3 seconds
+setTimeout(() =>setSent(false), 3000); 
   };
   
     return (

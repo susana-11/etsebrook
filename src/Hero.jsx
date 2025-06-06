@@ -1,9 +1,11 @@
 
 
 import React from "react";
-import "./App.css"; // Adjust the path if your CSS is in another file
+import "./App.css"; 
 import { FaMapMarkerAlt, FaCircle } from "react-icons/fa";
+
 import { FaEnvelope } from 'react-icons/fa';
+
 import { FaPhoneAlt } from 'react-icons/fa';
 
 
@@ -44,15 +46,13 @@ Addis Ababa, Ethiopia
     fontSize: '16px',
     cursor: 'pointer',
   }}
-  onClick={() => window.location.href = 'tel:+1234567890'}
+  onClick={() => window.location.href = 'tel:+251968933915'}
 >
   Connect by Phone
 </button>
 
 </div>
-{/*<a href="/etsebruk-cv.pdf" download className="cv-button">
-            Download CV
-</a>*/}
+{}
 </div>
 
 <div className="hero-image-wrapper">

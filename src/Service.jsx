@@ -35,7 +35,7 @@ const Service = () => {
         ))}
       </div>
 
-      {/* Customer Satisfaction Circle */}
+      {}
       <div className="satisfaction-container">
         <SatisfactionCircle percentage={95} />
       </div>
@@ -55,7 +55,7 @@ const SatisfactionCircle = ({ percentage }) => {
         current += 1;
         setProgress(current);
       }
-    }, 30); // Controls speed
+    }, 30); 
   }, [percentage]);
 
   const radius = 45;

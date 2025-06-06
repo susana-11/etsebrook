@@ -24,7 +24,7 @@ Whether it's collaborating on team projects or crafting solo builds, I take prid
 
 </p>
 <p>
-            <span>Let’s build something amazing together!
+            <span>Let's build something amazing together!
 </span>
 </p>
 </div>

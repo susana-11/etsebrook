@@ -1,14 +1,14 @@
-// ProjectSection.jsx
+
 import React from 'react';
 import './Projects.css';
 import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Blog website',
-    description: 'A personal blog website .',
+    title: 'Cosmotics website',
+    description: 'Cosmotics website .',
     technologies: ['React' ,'  ,' ,  'Tailwind CSS'],
-    image: ".//linkdin.PNG" ,
+    image: ".//cosmoo.PNG" ,
 github: 'https://github.com'
   },
   {
@@ -16,26 +16,26 @@ github: 'https://github.com'
     description: 'A Job finder application.',
     technologies: ['Java'],
     image: "./app.png" ,
-github: 'https://github.com'
+     github: 'https://github.com'
   },
   {
     title: 'Aurora Cafe',
-    description: 'Website for Aurora Cafe.',
+          description: 'Website for Aurora Cafe.',
     technologies: ['HTML,' ,'PHP'],
     image: "./auu.PNG",
 github: 'https://github.com'
   },
   {
-    title: 'Blog website',
-    description: 'A personal blog website .',
-    technologies: ['React',     'Tailwind CSS'],
-    image: "./linkdin.PNG",
+    title: 'Cosmotics website',
+         description: 'Cosmotics website .',
+         technologies: ['React',     'Tailwind CSS'],
+    image: "./cosmoo.PNG",
 github: 'https://github.com'
   },
   {
     title: 'Nexus Local',
     description: 'A Job finder application.',
-    technologies: ['Java'],
+         technologies: ['Java'],
     image: "./app.png",
 github: 'https://github.com'
   },
