@@ -1,0 +1,138 @@
+/* Projects Section */
+.projects-section {
+  padding: 60px 20px;
+  background-color: #111827; /* Dark theme default */
+  transition: background-color 0.3s ease;
+}
+
+body.light .projects-section {
+  background-color: #f8f9fa;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  background-color: #1a202c;
+  color: #e2e8f0;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 999px;
+}
+
+body.light .projects-section h2 {
+  background-color: #e2e8f0;
+  color: #2d3748;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  padding: 0 20px ;
+
+  margin: 0 auto;
+}
+.projects-tag-wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 20px;
+  font-size: 14px;
+}
+.projects-tag{
+
+  font-size: 14px;
+  
+  background-color: #1a202c;
+  color: #cbd5e0;
+  padding: 6px 16px;
+  border-radius: 999px;
+
+ 
+}
+body.light.projects-tag{
+  background-color: #edf2f7;
+  color: #2d3748;
+}
+
+.project-card {
+  background-color: #1f2937;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 40px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+body.light .project-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.project-image {
+  width: 70%;
+  height: 200px;
+  object-fit: cover;
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+.project-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #e2e8f0;
+}
+body.light.project-title{
+  color: #1a202c;
+}
+
+.project-description {
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  color: #cbd5e0;
+}
+body.light.project-description{
+  color: 4a5568;
+}
+
+.project-tech {
+  font-size: 12px;
+  font-style: italic;
+  color: #9ca3af;
+  margin-bottom: 14px;
+}
+
+body.light .project-tech {
+  color: #4b5563;
+}
+
+.project-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-links a {
+  color: #63b3ed;
+  font-size: 1.5rem;
+  margin-left: auto;
+  transition: transform 0.3s;
+}
+
+.project-links a:hover {
+  transform: scale(1.15);
+}
