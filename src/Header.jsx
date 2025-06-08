@@ -38,10 +38,11 @@ function Header({ theme, toggleTheme }) {
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === "light" ? <FaMoon /> : <FaSun />}
           </button>
-         <a href="/etsebrook/cvv.pdf" download className="cv-button">
+        <a href="/my-resume.docx" download className="cv-button">
   <FaDownload />
-  <span>CV</span>
+  <span>Download Resume (Word)</span>
 </a>
+
 
 
 
