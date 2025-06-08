@@ -16,14 +16,14 @@ function Header({ theme, toggleTheme }) {
   return (
     <header className="header">
       <div className="nav-container">
-        {/* Left: Mobile menu toggle */}
+        {}
         <div className="left">
           <button className="menu-toggle" onClick={handleMenuToggle}>
             {isMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
 
-        {/* Center: Desktop menu */}
+        {}
         <div className="center desktop-menu">
           <a href="#hero">Home</a>
           <a href="#about">About</a>
@@ -33,14 +33,14 @@ function Header({ theme, toggleTheme }) {
           <a href="#contact">Contact</a>
         </div>
 
-        {/* Right: Theme toggle and CV download */}
+        {}
         <div className="right">
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === "light" ? <FaMoon /> : <FaSun />}
           </button>
-        <a href="/my-resume.docx" download className="cv-button">
+      <a href="/cvvv.pdf" download className="cv-button">
   <FaDownload />
-  <span>Download Resume (Word)</span>
+  <span>CV</span>
 </a>
 
 
@@ -49,7 +49,7 @@ function Header({ theme, toggleTheme }) {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {}
       {isMenuOpen && (
         <div className="mobile-menu">
           <a href="#hero" onClick={handleLinkClick}>Home</a>
