@@ -83,7 +83,7 @@ const SatisfactionCircle = ({ percentage }) => {
       <div className="circle-text">
         <strong>{progress}%</strong>
         {progress === percentage ? (
-          <span>Trust My Service!</span>
+          <span>You're in Good Hands!</span>
         ) : (
           <span>Customer Satisfaction</span>
         )}

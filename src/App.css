@@ -173,7 +173,7 @@ body.light {
 .hero-section {
   background-color: var(--hero-bg-color);
   padding: 6rem 1rem 4rem;
-  margin-top: 60px; 
+  margin-top: 2px; 
 }
 
 .hero-container {
@@ -205,10 +205,15 @@ body.light {
 }
 
 .hero-role {
-  font-size: 14px;
+   font-size: 14px;
+  line-height: 1m;
   margin-bottom: 1rem;
   font-family:sans-serif;
   text-align: justify;
+  
+  word-spacing: -1px;
+
+
 }
 
 .hero-status {
@@ -229,6 +234,7 @@ body.light {
 .available-icon {
   margin-right: 6px;
   color: #00ff95;
+  
 }
 
 

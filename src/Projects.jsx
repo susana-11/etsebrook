@@ -5,8 +5,8 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Cosmotics website',
-    description: 'Cosmotics website .',
+    title: 'Cosmotic website',
+    description: 'Cosmotic product showcase website .',
     technologies: ['React' ,'  ,' ,  'Tailwind CSS'],
     image: ".//cosmoo.PNG" ,
 github: 'https://github.com'
@@ -26,8 +26,8 @@ github: 'https://github.com'
 github: 'https://github.com'
   },
   {
-    title: 'Cosmotics website',
-         description: 'Cosmotics website .',
+    title: 'Cosmotic website',
+         description: 'Cosmotic product showcase website.',
          technologies: ['React',     'Tailwind CSS'],
     image: "./cosmoo.PNG",
 github: 'https://github.com'

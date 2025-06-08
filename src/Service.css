@@ -44,7 +44,7 @@ body.light .service-section {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 750px;
+  max-width: 800px;
 }
 
 .tree::before {
@@ -76,7 +76,7 @@ body.light .service-section {
 }
 
 .leaf {
-  /*background: white;*/
+
   padding: 20px;
   width: 260px;
   border-radius: 15px;
