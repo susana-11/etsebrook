@@ -205,13 +205,13 @@ body.light {
 }
 
 .hero-role {
-   font-size: 14px;
-  line-height: 1m;
+  font-size: 1rem;
+  line-height: 1.6;
   margin-bottom: 1rem;
   font-family:sans-serif;
   text-align: justify;
   
-  word-spacing: -1px;
+  word-spacing: -2px;
 
 
 }
